@@ -111,8 +111,8 @@ brew "vim"
 brew "zsh"
 
 # Heroku
-brew "heroku-toolbelt"
-brew "parity"
+#brew "heroku-toolbelt"
+#brew "parity"
 
 # GitHub
 brew "hub"
@@ -121,7 +121,7 @@ brew "hub"
 brew "imagemagick"
 
 # Testing
-brew "qt"
+#brew "qt"
 
 # Programming languages
 brew "libyaml" # should come after openssl
@@ -130,8 +130,8 @@ brew "rbenv"
 brew "ruby-build"
 
 # Databases
-brew "postgres", restart_service: true
-brew "redis", restart_service: true
+#brew "postgres", restart_service: true
+#brew "redis", restart_service: true
 EOF
 
 fancy_echo "Configuring Ruby ..."
